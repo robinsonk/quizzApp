@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Mortal Kombat Quiz App</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header role="banner">
+		<img src="https://i.imgur.com/mKl5hlf.png" alt="mortal kombat logo: a silhouette of a dragon's head" class="logo">
+		<div class="counters">
+			<h2>Challenge: <span class="challengeNum">0</span>/10</h2>
+			<h2>Score: <span class="score">0</span></h2>
+		</div>
+	</header>
+	<main role="main">
+		<section role="region" class="begin-quiz">
+			<h3>Think you're a Mortal Kombat expert? Press START to test your might!</h3>
+            <button type="button" class="start-button">START</button>
+        </section>
+        <section role="region" class="final-score-page" id="final-score">
+        </section>
+        <section role="region" class="quiz-content">
+        </section>
+        <section role="region" class="wrongOrRight" id="container">
+        </section>
+    </main>
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</html>
