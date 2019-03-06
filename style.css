@@ -7,7 +7,7 @@
     background-image: url("https://i.imgur.com/fRZUvXR.png");
     background-repeat: no-repeat;
     background-color: black;
-    object-fit: contain;
+    background-position: fixed;
   }
 
   .logo {
